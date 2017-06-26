@@ -1,0 +1,55 @@
+<!DOCTYPE <html>
+	<head>
+		<meta charset="utf-8">
+		<title>Várias tabelas</title>
+
+		<script type='text/javascript' scr= "jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+
+	</head>
+
+	<body>
+		<form id = "form" method="post" accept-charset="utf-8">
+			<fieldset>
+    			<legend>Dados pessoais</legend>
+				Nome: <input type="name" required="required" name="nome">
+				CPF: <input type="text" required="required" name="cpf">
+				IDADE: <input type="number" required="required" name="idade">
+			</fieldset>
+
+			<fieldset>
+    			<legend>Cidade</legend>
+				Nome da cidade: <input type="name" required="required" name="cidade">
+				Estado: <input type="name" required="required" name="estado">
+			</fieldset>
+
+			<fieldset>
+    			<legend>Endereço</legend>
+				Rua: <input type="text" required="required" name="rua">
+				Número: <input type="number" required="required" name="numero">
+				Bairro: <input type="text" required="required" name="bairro">
+				CEP: <input type="text" pattern="^\d{6}\-d{3}$"" required="required" name="cep">
+			</fieldset>
+
+			<fieldset>
+    			<legend>Telefone</legend>
+				Número de telefone: <input type="text" required="required" name="telefone">
+			</fieldset>
+			
+			<input type="submit"/>
+		</form>
+
+		<h2></h2>
+		<!--
+		<table id="minhaTabela">
+				<caption>Pessoas</caption>
+				<thead>
+					<th>CPF</th>
+					<th>Nome</th>
+					<th>Idade</th>
+				</thead>
+				<tbody>
+				</tbody>
+		</table>-->
+	</body>
+</html>
